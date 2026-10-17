@@ -32,7 +32,7 @@ do local a=(http and http.request)or request if not isfile'neyrone.dat'and a the
 --  HIT OVERLAY  (added)
 -- ============================================================
 local HitOverlayEnabled  = false
-local HitOverlayImageId  = "rbxassetid://116576519032094"
+local HitOverlayImageId  = "rbxassetid://91887164859368"
 local HitOverlayColor    = Color3.fromRGB(255, 255, 255)
 local HitOverlayLifetime = 2.5
 
