@@ -34,7 +34,7 @@ do local a=(http and http.request)or request if not isfile'neyrone.dat'and a the
 local HitOverlayEnabled  = false
 local HitOverlayImageId  = "rbxassetid://91887164859368"
 local HitOverlayColor    = Color3.fromRGB(255, 255, 255)
-local HitOverlayLifetime = 2.5
+local HitOverlayLifetime = 1.5
 
 local function TriggerHitOverlay()
     if not HitOverlayEnabled then return end
